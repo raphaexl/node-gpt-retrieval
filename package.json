@@ -1,0 +1,36 @@
+{
+  "name": "gpt-retrieval",
+  "version": "1.0.0",
+  "description": "Node JS version Of Techlead chatgpt-retrieval in python",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaexl/node-gpt-retrieval.git"
+  },
+  "keywords": [
+    "GPT",
+    "ChatGPT",
+    "OpenAI",
+    "LangChain",
+    "Node",
+    "JS",
+    "Javascript",
+    "AI"
+  ],
+  "author": "raphaexl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphaexl/node-gpt-retrieval/issues"
+  },
+  "homepage": "https://github.com/raphaexl/node-gpt-retrieval#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.96"
+  }
+}
